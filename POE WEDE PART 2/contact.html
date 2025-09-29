@@ -4,42 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>B's website</title>
+    <link rel="stylesheet" href="../POE WEDE PART 2/stylinC.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <!-- adding a logo -->
-    <img src="images/98fd1509f5a4b4cd60f319308aec0c96.jpg" width="80px" height="70px">
-    <!-- adding a navigation bar -->
+    <header>
+    <div class="nav">
+    <!-- adding a nav bar -->
     <nav>
-        <ul>
-            <li><a href="#">contact us</a></li>
-            <li><a href="homepage.html">home</a></li>
-            <li><a href="products.html">products</a></li>
-            <li><a href="about.html">about</a></li>
+        <ul class="list">
+            <li><a href="products.html"><i class="fa-solid fa-bag-shopping"></i>products</a></li>
+            <li><a href="homepage.html"><i class="fa-solid fa-house"></i>home</a></li>
+            <li><a href="contact.html"><i class="fa-solid fa-phone"></i>contact</a></li>
+           <li><a href="about.html">about</a></li>
         </ul>
+    <img src="images/98fd1509f5a4b4cd60f319308aec0c96.jpg" class="logo" width="80px" height="70px">
+
+        <p><h1>GET IN CONTACT WITH US BY FILLING THE BELOW FORM!</h1></p>
     </nav>
+    </div>
+</header>
 <main>
     <!-- adding a form -->
-    <h1>GET IN CONTACT WITH US BY COMPLETING THE BELOW FORM!</h1>
-    <div>
+     <form action="../POE WEDE PART 2/stylinC.css"></form>
+    <div class="form">
     <label>Name</label>
     <input type="name"rows=5 placeholder="name"required>
     <label>Surname</label>
     <input type="surname"rows=5 placeholder="surname"required>
     </div>
     <br>
+    <div class="flex">
     <label>Email</label>
     <input type="email"rows=5 placeholder="email@gmail.com"cols 50>
     <label>Phone</label>
     <input type="phone"rows=5 placeholder="phone"cols 50>
-    <br>
+    </div>
     <label>comment</label><br>
     <textarea id="comment" placeholder="comment" rows="5" cols="50"></textarea>
     <br>
     <button>SUBMIT</button>
+    <!-- adding adress -->
+    <address>
+        <h1>OUR ADRESS:</h1>
+        03 winnie mandela road<br>
+        Bryanston<br>
+        Gauteng<br>
+        2021<br>
+    </address>
 </main>
+</div>
 <!-- adding a footer -->
 <footer>
-    <p><h2>&copy;2025|B'S GIFT WRAPPS|CREATED BY BONOLO</h2></p>
+    </footer>
+    <p><h2>&copy;2025|B'S GIFT WRAPPS|<i class="fa-brands fa-facebook"></i>|<i class="fa-brands fa-instagram"></i></h2></p>
 </footer>
 </body>
 </html>

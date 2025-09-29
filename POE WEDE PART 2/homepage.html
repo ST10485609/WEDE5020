@@ -4,38 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>B'S GIFT BASKETS</title>
+    <link rel="stylesheet" href="../POE WEDE PART 2/styleH.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <!-- adding a logo -->
-    <img src="images/98fd1509f5a4b4cd60f319308aec0c96.jpg" width="80px" height="70px">
-     <!-- adding a nav bar -->
+    <div class="top">
     <nav>
-        <ul>
-            <li><a href="#">home</a></li>
-            <li><a href="contact.html">call us</a></li>
-            <li><a href="about.html">about</a></li>
-            <li><a href="products.html">products</a></li>
-        </ul>
-    </nav>
-    <!-- adding a dropdown menu -->
-    <label id="for gifts">kinds of gifts</label>
+        <div>
+            <ul class="list">
+          <li><a class="home" href="#"><i class="fa-solid fa-house"></i>home</a></li>
+            <li><a class="phone" href="contact.html"><i class="fa-solid fa-phone"></i> call us</a></li>
+            <li><a class="about" href="about.html">about</a></li>
+            <li><a class=products href="products.html"><i class="fa-solid fa-bag-shopping"></i>products</a></li>
+            <li><a><i class="fa-solid fa-magnifying-glass"></i>search</a></li>
+            </ul>
+        <img class="logo" src="images/98fd1509f5a4b4cd60f319308aec0c96.jpg" width="80px" height="70px">
+        </div>
+
+         <div class="dropdown">
+            <label id="for gifts">kinds of gifts</label>
         <select name="gifts" id="gifts">
+            <option>select</option>
             <option>for kids</option>
             <option>for animals</option>
             <option>for birthdays</option>
             <option>letters</option>
         </select>
-    <!-- adding a heading -->
-    <h1>B'S GIFT WRAPPING</h1>
+        </div>
+    </nav>
+    <h1><i>B'S GIFT WRAPPING</i></h1>
+    </div>
+    
 
+    <br>
     <main>
     <!-- adding images -->
-    <div>
-     <img src="images/3c95118d535850a00b46012da880fa1b.jpg" alt="pic">
-     <img src="images/869f8dc5cfe1e1efe6a3a45a1e6f3780.jpg" alt="photo" >
+     <div class="photos">
+     <div class="images">
+   <div class="pic"><img src="images/7670214aa3351ce5ab42becb4653a133 (2).jpg" class="photo1" alt="img4"></div> 
+      
+    <div class="pic"><img src="images/869f8dc5cfe1e1efe6a3a45a1e6f3780.jpg" class="photo2" alt="img3" ></div>   
      <br>
-     <img src="images/3f8c9e0edd0cd359917a72e626d3b5c3.jpg" alt="giftp">
-     <img src="images/b7246e3fc1cfcea545fee29ad1bd60a7.jpg" alt="wrap" >
+     </div>
+     <div class="two">
+     <img src="images/3f8c9e0edd0cd359917a72e626d3b5c3.jpg"  class="photo3" alt="img1">
+     
+     <img src="images/49398f9d4164c4b5301c3c4f109d3466 (2).jpg" class="photo4" alt="img2" >
+     </div>
+     </div>
      <!-- adding videos -->
      <video controls >  
         <source src="images/Download (3).mp4" type="video/mp4">
@@ -43,11 +59,13 @@
         <video controls >
         <source src="images/Download (2).mp4" type="video/mp4">
         </video>
+        </div>
     </div>
     </main>
+    <br>
      <!-- adding a footer -->
     <footer>
-      <p><h2>&copy;2025|B'S Gift wrapping|CREATED BY BONOLO</a></h2></p>
+      <p><h2>&copy;2025|B'S Gift wrapping|<i class="fa-brands fa-facebook"></i>|<i class="fa-brands fa-instagram"></i></a></h2></p>
     </footer>
 
 </body>
